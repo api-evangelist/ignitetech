@@ -1,8 +1,19 @@
 aid: ignitetech
 name: IgniteTech
-description: 'IgniteTech is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  IgniteTech is a global, AI-first enterprise software company (headquartered in
+  Austin, Texas, and operating remote-first across 30+ countries) that acquires,
+  revitalizes, and supports mission-critical enterprise software and embeds
+  AI-powered capabilities across its portfolio — an operating model the company
+  brands "AI-DNA." Its Native AI products include Eloquens AI (automated,
+  context-aware email response), MyPersonas (AI digital clones of key employees
+  that answer repetitive questions via a video chat-style interface), and Adminio
+  AI (meeting scheduling through intelligent email orchestration). The IgniteTech
+  Unlimited software library spans acquired enterprise brands such as GFI
+  Software, Khoros (Communities and Care), Jive, DNN, Gensym, Computron, GRID
+  (supply chain, via the Suuchi acquisition), Knova, AnswerHub, ACORN, TradeBeam,
+  and SalesBuilder. Led by CEO Eric Vaughan, the company positions itself as an
+  AI enterprise software company rather than only a software holding company.
 url: https://raw.githubusercontent.com/api-evangelist/ignitetech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +21,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ignitetech.ai/wp-content/uploads/2025/07/logo-200-01.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Saas
+- SaaS
+- Enterprise Software
+- Artificial Intelligence
+- Software Portfolio
+- Customer Engagement
+- Supply Chain
+- Knowledge Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.ignitetech.com/
+  url: https://ignitetech.ai/
+- type: About
+  url: https://ignitetech.ai/about/
+- type: Blog
+  url: https://ignitetech.ai/news/
+- type: Support
+  url: https://ignitetech.ai/get-support/
+- type: PrivacyPolicy
+  url: https://ignitetech.ai/about/privacy/
+- type: TermsOfService
+  url: https://ignitetech.ai/website-terms-use/
+- type: GitHubOrganization
+  url: https://github.com/IgniteTech
+- type: StatusPage
+  url: https://status.ignitetech.com/
+- type: LLMsTxt
+  url: llms/ignitetech-llms.txt
+- type: Lifecycle
+  url: lifecycle/ignitetech-lifecycle.yml
+- type: DomainSecurity
+  url: security/ignitetech-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

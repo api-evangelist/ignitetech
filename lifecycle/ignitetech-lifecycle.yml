@@ -1,0 +1,12 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.ignitetech.com/
+# IgniteTech publishes an operational status page for its software products.
+# No public developer API is published, so there is no versioning or
+# deprecation policy (RFC 8594 Sunset/Deprecation) to capture, and no
+# deprecated operations can be derived (no OpenAPI in this repo).
+status_page: https://status.ignitetech.com/
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
