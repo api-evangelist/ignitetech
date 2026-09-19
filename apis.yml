@@ -1,19 +1,14 @@
 aid: ignitetech
 name: IgniteTech
-description: >-
-  IgniteTech is a global, AI-first enterprise software company (headquartered in
-  Austin, Texas, and operating remote-first across 30+ countries) that acquires,
-  revitalizes, and supports mission-critical enterprise software and embeds
-  AI-powered capabilities across its portfolio — an operating model the company
-  brands "AI-DNA." Its Native AI products include Eloquens AI (automated,
-  context-aware email response), MyPersonas (AI digital clones of key employees
-  that answer repetitive questions via a video chat-style interface), and Adminio
-  AI (meeting scheduling through intelligent email orchestration). The IgniteTech
-  Unlimited software library spans acquired enterprise brands such as GFI
-  Software, Khoros (Communities and Care), Jive, DNN, Gensym, Computron, GRID
-  (supply chain, via the Suuchi acquisition), Knova, AnswerHub, ACORN, TradeBeam,
-  and SalesBuilder. Led by CEO Eric Vaughan, the company positions itself as an
-  AI enterprise software company rather than only a software holding company.
+description: IgniteTech is a global, AI-first enterprise software company (headquartered in Austin, Texas, and operating
+  remote-first across 30+ countries) that acquires, revitalizes, and supports mission-critical enterprise software
+  and embeds AI-powered capabilities across its portfolio — an operating model the company brands "AI-DNA." Its
+  Native AI products include Eloquens AI (automated, context-aware email response), MyPersonas (AI digital clones
+  of key employees that answer repetitive questions via a video chat-style interface), and Adminio AI (meeting scheduling
+  through intelligent email orchestration). The IgniteTech Unlimited software library spans acquired enterprise
+  brands such as GFI Software, Khoros (Communities and Care), Jive, DNN, Gensym, Computron, GRID (supply chain,
+  via the Suuchi acquisition), Knova, AnswerHub, ACORN, TradeBeam, and SalesBuilder. Led by CEO Eric Vaughan, the
+  company positions itself as an AI enterprise software company rather than only a software holding company.
 url: https://raw.githubusercontent.com/api-evangelist/ignitetech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -94,6 +89,8 @@ common:
   url: lifecycle/ignitetech-lifecycle.yml
 - type: DomainSecurity
   url: security/ignitetech-domain-security.yml
+- type: Website
+  url: https://ignitetech.ai/software-library/scalearc/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
